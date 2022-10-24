@@ -1,0 +1,79 @@
+.divcont {
+  margin: 10px 60px;
+  border: 5px groove;
+  background-color: rgba(106, 121, 121, 0.801);
+}
+
+.link {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: start;
+  margin: 10px 100px;
+}
+
+.btn {
+  background-color: mediumaquamarine;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+.imga {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  margin: 0px 250px;
+}
+
+.details {
+  margin: 10px;
+  padding: 20px 150px;
+  display: grid;
+  justify-items: start;
+  border: 2px groove black;
+}
+
+.summ {
+  text-align: justify;
+}
+
+.summary {
+  /* margin: auto; */
+  text-align: justify;
+  border: 2px groove black;
+  padding: 5px;
+}
+
+.dishTypes {
+  display: flex;
+  align-items: center;
+}
+
+.dishTypesdiv {
+  margin: 0px 20px;
+}
+
+.diets {
+  display: flex;
+  /* justify-content: center;
+  align-content: center; */
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px groove black;
+  padding: 5px;
+}
+
+.tstep {
+  display: table;
+}
+
+.listep {
+  text-align: justify;
+}

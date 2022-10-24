@@ -1,0 +1,17 @@
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  height: 35px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: aqua;
+}

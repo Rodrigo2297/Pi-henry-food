@@ -1,0 +1,31 @@
+html,
+body {
+  background: url("../image/inicio.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  height: 500px;
+  width: 500px;
+  border-radius: 500px;
+  margin-top: 26vh;
+  background-image: linear-gradient(180deg, blue, red);
+  transition: 1s;
+  font-size: 40px;
+}
+
+.boton:hover {
+  transition: 1s;
+  background-image: linear-gradient(180deg, red, blue);
+  border: 5px groove;
+  cursor: pointer;
+  font-size: 80px;
+}
